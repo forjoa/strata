@@ -79,6 +79,10 @@ Stages, in order, all blocking: format check → lint → build → unit tests �
 - Scope is the module or area. Message is imperative, lowercase, no trailing period.
 - No body, no trailers, no `Co-Authored-By`, no AI attribution of any kind, in commits or PRs.
 
+## GitHub
+
+- The `gh` CLI is authenticated. Use it freely for repos, issues, PRs, releases, Actions runs, and API calls.
+
 ## Working here
 
 - If an ambiguity changes the design, ask. Otherwise decide and state the assumption.
