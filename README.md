@@ -18,7 +18,7 @@ flowchart LR
 
 | Path | What lives there | Changes |
 |---|---|---|
-| `CLAUDE.md` | Rules the agent reads every turn | Rarely |
+| `AGENTS.md` | Rules the agent reads every turn (Codex directly, Claude Code through `CLAUDE.md`, which only imports it) | Rarely |
 | `docs/engineering/` | How we build: architecture, stack selection, testing, security, diagrams | Rarely, shared by every fork |
 | `docs/product/` | Why and for whom: vision, use cases | Per project |
 | `docs/research/` | Evidence behind choices | Per decision |
@@ -28,6 +28,7 @@ flowchart LR
 | `docs/templates/` | Starting points for the above | Rarely |
 | `.claude/skills/` | Procedures: `/investigate`, `/decide`, `/design`, `/feature` | Rarely |
 | `.claude/agents/reviewer.md` | Rule-checking reviewer | Rarely |
+| `.agents/skills`, `.codex/agents/` | Codex view of the same skills (symlink) and reviewer (generated from `.claude/agents/`) | Never by hand |
 | `src/` | Created by `/design` once the stack ADR is accepted | Always |
 
 ## Starting a project

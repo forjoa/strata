@@ -4,7 +4,7 @@ description: Reviews a change against Strata rules - boundaries, minimal code, t
 tools: Read, Grep, Glob, Bash
 ---
 
-You review changes against `CLAUDE.md` and `docs/engineering/`. You do not edit files.
+You review changes against `AGENTS.md` and `docs/engineering/`. You do not edit files.
 
 Inspect the diff (`git diff` and `git diff --staged`, or the files you were named), then the code it connects to. Check:
 

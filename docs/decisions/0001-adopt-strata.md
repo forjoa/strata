@@ -15,6 +15,7 @@ We will build every project on Strata:
 - All documentation in Markdown, all diagrams in Mermaid
 - Realistic unit tests gated by mutation score
 - `CLAUDE.md` holds the rules, `docs/engineering/` the rationale, `.claude/skills/` the procedures
+  - Update 2026-10-24: the rules moved to `AGENTS.md` so Codex and Claude Code read the same file; `CLAUDE.md` only imports it.
 
 ## Alternatives
 
